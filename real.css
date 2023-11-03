@@ -1,0 +1,137 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 1000px;
+    column-gap: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 20px;
+
+}
+
+.intro {
+    height: 500px;
+    width: 1600px;
+    border: 2px white solid;
+    background-image: url('https://pixfort.website/themeforest/landing/flatpack/6_university/images/6_university/1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.icon:hover {
+    font-size: 30px;
+    color: #000;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(110, 231, 73);
+    border: 2px rgb(110, 231, 73) solid;
+    border-radius: 10px;
+}
+
+.three {
+    background-color: rgba(225, 240, 208, 0.903);
+    border: 2px rgb(193, 239, 179) solid;
+    height: 150px;
+    width: 1600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.part4 {
+    background-color: rgba(225, 240, 208, 0.903);
+    border: 2px rgb(193, 239, 179) solid;
+    width: 1600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px
+}
+
+.p1,
+.d {
+    color: rgba(152, 88, 88, 0.503);
+}
+
+.img1,
+.s {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(225, 240, 208, 0.903);
+    border: 2px rgb(193, 239, 179) solid;
+    gap: 20px;
+    width: 450px;
+}
+
+.h {
+    color: rgba(101, 59, 59, 0.967);
+    font-family: sans-serif;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.design {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
